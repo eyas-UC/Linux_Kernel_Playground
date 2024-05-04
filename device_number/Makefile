@@ -1,4 +1,4 @@
-obj-m += first_driver.o
+obj-m += device_number.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
